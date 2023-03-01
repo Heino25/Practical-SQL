@@ -1,0 +1,2 @@
+first_name,last_name,school,hire_date,salary
+Nkulux,Krwx,Gobe,2011-01-01 00:00:00,30000
