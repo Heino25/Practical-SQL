@@ -174,7 +174,7 @@ CREATE AGGREGATE median(anyelement) (
  	INITCOND='{}'
 );
 
---Does Work after median() Function is created with (numeric) inserted in the function
+--Does Work after median() AGGREGATE is created with (numeric) inserted
 
 SELECT sum(p0010001) AS "County Sum",
  	round(AVG(p0010001), 0) AS "County Average",
